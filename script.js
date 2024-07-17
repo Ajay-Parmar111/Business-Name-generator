@@ -11,6 +11,7 @@ if (rand < 0.33) {
 }
 
 // second word
+rand = Math.random();
 if (rand < 0.33) {
   second = "Engine";
 } else if (rand < 0.66 && rand >= 0.33) {
@@ -20,6 +21,7 @@ if (rand < 0.33) {
 }
 
 // third word
+rand = Math.random();
 if (rand < 0.33) {
   third = "Bros";
 } else if (rand < 0.66 && rand >= 0.33) {
